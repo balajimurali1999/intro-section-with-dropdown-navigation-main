@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid app-container">
+    <div class="row">
+
+      <div class="logo-container col-2">
+        <img src="/images/logo.svg">
+      </div>
+      <div class=" col-1">
+        <div class="funtionalities dropdown-container">
+          <div>
+            Features
+            <img src="images/icon-arrow-down.svg" class="bi-chevron-down">
+            <img src="images/icon-arrow-up.svg" class="bi-chevron-up">
+            <ul class="list-group dropdown-active">
+              <li class="list-item"> <img src="images/icon-todo.svg" alt=""><span>Todo list</span></li>
+              <li class="list-item"><img src="images/icon-calendar.svg" alt=""><span>Calendar</span></li>
+              <li class="list-item"> <img src="images/icon-reminders.svg" alt=""><span>Reminders</span></li>
+              <li class="list-item"> <img src="images/icon-planning.svg"><span>Planning</span></li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class=" col-1">
+        <div class="funtionalities dropdown-container">
+          <span> Company
+            <img src="images/icon-arrow-down.svg" class="bi-chevron-down">
+            <img src="images/icon-arrow-up.svg" class="bi-chevron-up">
+          </span>
+          <ul class="list-group dropdown-active">
+            <li class="list-item"><span>History</span></li>
+            <li class="list-item"><span>Our Team</span></li>
+            <li class="list-item"><span>Blog</span></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class=" col-1">
+        <span class="funtionalities"> Careers </span>
+      </div>
+      <div id="about" class=" col-5">
+        <span class="funtionalities"> About </span>
+      </div>
+      <div class="col-2 acount-section">
+
+        <button class="btn">Login</button>
+        <button class="btn sec-btn ">Register</button>
+      </div>
+    </div>
+    <div class="page-container row">
+      <div class="col-6">
+        <div class="page-data">
+          <div class="bold-title">
+            <p>Make</p>
+            <p id="remote-work">remote work</p>
+          </div>
+          <p class="main-content">
+            Get your team in sync, no matter your location. Stremalined processses,
+            create tem rituals and watch productivity soar.
+          </p>
+          <div class="learn-more-button">
+            <button class="btn sec-btn ">Learn more</button>
+          </div>
+          <div class="client-container row">
+            <img class="client-img" src="images/client-databiz.svg">
+            <img class="client-img" src="images/client-audiophile.svg">
+            <img class="client-img" src="images/client-meet.svg">
+            <img class="client-img" src="images/client-maker.svg">
+
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-6">
+        <img class="hero-img" src="images/image-hero-desktop.png">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

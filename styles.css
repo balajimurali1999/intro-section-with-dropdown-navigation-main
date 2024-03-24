@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: "Epilogue", sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+}
+
+.app-container {
+    margin-top: 2rem;
+}
+
+.funtionalities {
+    cursor: pointer;
+}
+.funtionalities:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.dropdown-container:hover .dropdown-active,
+.dropdown-active:hover {
+    display: flex;
+}
+
+.dropdown-active {
+    border-radius: 10px;
+    width: 8rem;
+    padding: 3px 2px 5px 1px;
+    background-color: #fff;
+}
+
+.dropdown-container .dropdown-active {
+    display: none;
+}
+
+.bi-chevron-up {
+    display: none;
+}
+
+.dropdown-container:hover .bi-chevron-up {
+    display: inline;
+}
+
+.dropdown-container:hover .bi-chevron-down {
+    display: none;
+}
+
+.acoount-section {
+    display: flex;
+    float: inline-end;
+}
+
+.dropdown-container {
+    width: 90px;
+}
+
+.list-group {
+    display: flex;
+    z-index: 9999999;
+    position: absolute;
+}
+
+.list-item {
+    list-style-type: none;
+    padding-top: 5px;
+    width: 100%;
+    
+    padding-bottom: 5px;
+}
+
+.list-item img {
+    margin-left: 10px;
+
+}
+
+.list-item span {
+    padding: 5px;
+    margin-left: 2px;
+    color: hsl(0, 0%, 41%);
+}
+
+
+.list-item span:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+#about {
+    margin-left: -1.2rem;
+}
+
+.sec-btn {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+
+.hero-img {
+    width: 56%;
+    height: 80%;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.bold-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    /* margin-top: 0rem; */
+    padding: 6.3rem 4rem 1rem 0rem;
+}
+
+#remote-work {
+    margin-top: -2rem;
+}
+
+.main-content {
+    text-align: justify;
+    padding: 0rem 3rem 0rem 0rem;
+}
+
+.page-container {
+    padding-left: 6rem;
+}
+
+.client-container {
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+}
+
+.client-img {
+    margin-right: 3rem;
+    height: 1%;
+}
+
+.learn-more-button button {
+    background-color: #000;
+    color: #fff;
+    margin: 1.4rem 0rem;
+}
+
+.learn-more-button button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
